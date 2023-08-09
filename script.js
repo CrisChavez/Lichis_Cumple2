@@ -6,7 +6,7 @@ function sendConfirmationEmail(event) {
     const email = document.getElementById('email').value;
   
     // Configurar el servicio de envío de correo (SendGrid)
-    const sendGridAPIKey = 'TU_API_KEY_SENDGRID'; // Reemplaza con tu API Key de SendGrid
+    const sendGridAPIKey = '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'; // Reemplaza con tu API Key de SendGrid
     const sendGridEmail = 'cristianarielchavez@outlook.com.ar'; // Reemplaza con tu dirección de correo electrónico
   
     // Crear el objeto de datos para el correo electrónico
@@ -21,7 +21,7 @@ function sendConfirmationEmail(event) {
       content: [
         {
           type: 'text/plain',
-          value: `¡Hola ${name}!\n\nGracias por confirmar tu asistencia al cumpleaños de Lisandro. ¡Te esperamos con muchas sorpresas!\n\nAtentamente,\nEquipo de Cumpleaños`,
+          value: `¡Hola ${name}!\n\nGracias por confirmar tu asistencia al cumpleaños de Lisandro. ¡Te esperamos con muchas sorpresas!\n\nAtentamente,\nCris, Dani y Lichis`,
         },
       ],
     };

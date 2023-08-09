@@ -81,7 +81,7 @@ body {
   
   @media screen and (max-width: 600px) {
     .card {
-      max-width: 300px;
+      max-width: 100%;
     }
   
     .title h1 {
